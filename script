@@ -51,8 +51,6 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Section Example")
 
---Buttons
-
 local Button = Tab:CreateButton({
    Name = "Close Script",
    Callback = function()
@@ -84,6 +82,8 @@ local Slider = Tab:CreateSlider({
 })
 
 --Section2
+
+local Section = Tab:CreateSection("Genesis")
 
 local Button = Tab:CreateButton({
    Name = "Button Example",
