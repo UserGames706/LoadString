@@ -85,12 +85,9 @@ local Slider = Tab:CreateSlider({
 
 --Section2
 
-local Section = Tab:CreateSection("Genesis Scripts")
-
 local Button = Tab:CreateButton({
-   Name = "Sudio Dummy"
-",
+   Name = "Button Example",
    Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
    end,
 })
