@@ -87,10 +87,26 @@ local Tab = Window:CreateTab("Genesis Script", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Genesis")
 
+local Paragraph = Tab:CreateParagraph({Title = "NOT FINSHED", Content = "not done yet"})
+
 local Button = Tab:CreateButton({
    Name = "Studio Dummy",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dearsister",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Dearsister"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "AK-47",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/AK-47"))()
    end,
 })
 
@@ -105,5 +121,33 @@ local Button = Tab:CreateButton({
    Name = "Ban Hammer",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Minigun",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Minigun"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Krystal Dance",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Krystal%20Dance"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Good Cop Bad Cop",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Good%20Cop%20Bad%20Cop"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Motorcycle",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Motorcycle"))()
    end,
 })
