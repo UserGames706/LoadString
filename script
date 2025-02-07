@@ -90,25 +90,6 @@ local Section = Tab:CreateSection("Genesis")
 local Button = Tab:CreateButton({
    Name = "Studio Dummy",
    Callback = function()
-
-allowshiftlock = true --adds shiftlock to patchma rig
-ctrltp = true --adds control click tp
-placeholders = true --adds transparent parts showing your hats when you don't have real ones
-clickfling = false --adds click flinging regardless of attacks
-highlightflingtargets = true --highlight fling
-discharscripts = true --disable character scripts
-flingchangestate = true --fling with whole body
-hidedeatheffect = true --hides the red damage border when you die (respawn)
-respawntp = 1 --respawn tp mode
--- 0 - stay at spawn
--- 1 - randomtp close
--- 2 - behind fake character
--- 3 - hide body
-breakjointsmethod = 1 --breakjoints mode
--- 1 - health+breakjoints (the most support)
--- 2 - health or breakjoints
--- 3 - breakjoints
-simrad = true --sets simulation radius
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Studio%20Dummy"))()
    end,
 })
@@ -116,26 +97,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/mai
 local Button = Tab:CreateButton({
    Name = "Sniper",
    Callback = function()
-
-
-allowshiftlock = true --adds shiftlock to patchma rig
-ctrltp = true --adds control click tp
-placeholders = true --adds transparent parts showing your hats when you don't have real ones
-clickfling = false --adds click flinging regardless of attacks
-highlightflingtargets = false --highlight fling
-discharscripts = true --disable character scripts
-flingchangestate = true --fling with whole body
-hidedeatheffect = true --hides the red damage border when you die (respawn)
-respawntp = 1 --respawn tp mode
--- 0 - stay at spawn
--- 1 - randomtp close
--- 2 - behind fake character
--- 3 - hide body
-breakjointsmethod = 1 --breakjoints mode
--- 1 - health+breakjoints (the most support)
--- 2 - health or breakjoints
--- 3 - breakjoints
-simrad = true --sets simulation radius
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sniper"))()
    end,
 })
@@ -143,25 +104,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/mai
 local Button = Tab:CreateButton({
    Name = "Ban Hammer",
    Callback = function()
-
-allowshiftlock = true --adds shiftlock to patchma rig
-ctrltp = true --adds control click tp
-placeholders = true --adds transparent parts showing your hats when you don't have real ones
-clickfling = false --adds click flinging regardless of attacks
-highlightflingtargets = true --highlight fling
-discharscripts = true --disable character scripts
-flingchangestate = true --fling with whole body
-hidedeatheffect = true --hides the red damage border when you die (respawn)
-respawntp = 1 --respawn tp mode
--- 0 - stay at spawn
--- 1 - randomtp close
--- 2 - behind fake character
--- 3 - hide body
-breakjointsmethod = 1 --breakjoints mode
--- 1 - health+breakjoints (the most support)
--- 2 - health or breakjoints
--- 3 - breakjoints
-simrad = true --sets simulation radius
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))()
    end,
 })
