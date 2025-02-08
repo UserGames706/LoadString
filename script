@@ -28,11 +28,12 @@ local Window = Rayfield:CreateWindow({
       Subtitle = "Key System",
       Note = "KEY IS IN DISCORD",
       FileName = "KEYFORSKIBIDIHUB",
-      SaveKey = false,
+      SaveKey = true,
       GrabKeyFromSite = false,
       Key = {"FF37YDSHU0V"}
    }
 })
+ 
 --Notification
 
 Rayfield:Notify({
@@ -44,12 +45,13 @@ Rayfield:Notify({
 
 --Tab
 
+--Section1
 
-local Tab = Window:CreateTab("Close Script"), 4483362458) -- Title, Image
+local Tab = Window:CreateTab("FE Scripts", 4483362458) -- Title, Image
 
---Section
+local Section = Tab:CreateSection("Genesis")
 
-local Section = Tab:CreateSection("Close Script")
+local Paragraph = Tab:CreateParagraph({Title = "NOT FINSHED", Content = "not done yet"})
 
 local Button = Tab:CreateButton({
    Name = "Close Script",
@@ -57,16 +59,6 @@ local Button = Tab:CreateButton({
 Rayfield:Destroy()
    end,
 })
-
-
-
---Section2
-
-local Tab = Window:CreateTab("FE Scripts", 4483362458) -- Title, Image
-
-local Section = Tab:CreateSection("Genesis")
-
-local Paragraph = Tab:CreateParagraph({Title = "NOT FINSHED", Content = "not done yet"})
 
 local Button = Tab:CreateButton({
    Name = "Studio Dummy",
