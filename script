@@ -47,6 +47,8 @@ Rayfield:Notify({
 
 local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
 
+local Section = Tab:CreateSection("Player")
+
 local Button = Tab:CreateButton({
    Name = "Close Script",
    Callback = function()
