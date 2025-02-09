@@ -131,3 +131,17 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://pastefy.app/59mJGQGe/raw"))()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "R6 Fighter",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/wxVAgZpT/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Hat Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+   end,
+})
