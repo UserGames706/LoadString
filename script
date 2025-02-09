@@ -43,42 +43,7 @@ Rayfield:Notify({
    Image = 4483362458,
 })
 
---Tab
 
-local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
-
-local Section = Tab:CreateSection("Player")
-
-local Button = Tab:CreateButton({
-   Name = "Close Script",
-   Callback = function()
-Rayfield:Destroy()
-   end,
-})
-
- local Slider = PlayerTab:CreateSlider({
-    Name = "WalkSpeed",
-    Range = {16, 250},
-    Increment = 1,
-    Suffix = "Speed",
-    CurrentValue = 16,
-    Flag = "Slider1", 
-    Callback = function(Value)
-     Game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-    end,
- })
-
- local Slider = PlayerTab:CreateSlider({
-    Name = "",
-    Range = {16, 250},
-    Increment = 1,
-    Suffix = "JumpPower",
-    CurrentValue = 16,
-    Flag = "Slider1", 
-    Callback = function(Value)
-     Game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-    end,
- })
 
 --Section1
 
