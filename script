@@ -45,6 +45,32 @@ Rayfield:Notify({
 
 --Tab
 
+local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
+
+ local Slider = PlayerTab:CreateSlider({
+    Name = "WalkSpeed",
+    Range = {1, 250},
+    Increment = 1,
+    Suffix = "Speed",
+    CurrentValue = 10,
+    Flag = "Slider1", 
+    Callback = function(Value)
+     game.Players.LocalPlayer.Character:SetAttribute("SpeedMultiplier", Value)
+    end,
+ })
+
+ local Slider = PlayerTab:CreateSlider({
+    Name = "Jump Height",
+    Range = {10, 500},
+    Increment = 1,
+    Suffix = "Height",
+    CurrentValue = 10,
+    Flag = "Slider3", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+     game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+    end,
+ })
+
 --Section1
 
 local Tab = Window:CreateTab("FE Scripts", 4483362458) -- Title, Image
