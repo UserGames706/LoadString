@@ -55,7 +55,7 @@ local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
     CurrentValue = 10,
     Flag = "Slider1", 
     Callback = function(Value)
-     game.Players.LocalPlayer.Character:SetAttribute("SpeedMultiplier", Value)
+     game.Players.LocalPlayer.Humanoid.WalkSpeed.Value = Range
     end,
  })
 
