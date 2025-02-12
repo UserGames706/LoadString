@@ -193,5 +193,6 @@ end
 end
 local r15height = "0.56"
 game:GetService("Players").LocalPlayer.Character:FindFirstChildWhichIsA("Humanoid").HipHeight = r15height
+end
    end,
 })
