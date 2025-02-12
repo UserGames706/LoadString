@@ -198,7 +198,7 @@ end
 })
 
 local Button = Tab:CreateButton({
-   Name = "Angel ",
+   Name = "Angel Script",
    Callback = function()
 wait(1/60)
 
