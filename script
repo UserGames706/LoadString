@@ -43,7 +43,15 @@ Rayfield:Notify({
    Image = 4483362458,
 })
 
+local Tab = Window:CreateTab("RANKS", 4483362458) -- Title, Image
 
+local Section = Tab:CreateSection("RANKS")
+
+
+
+local Paragraph = Tab:CreateParagraph({Title = "flartni", Content = "Beta Tester Trusted And Freind Of Owner"})
+
+local Paragraph = Tab:CreateParagraph({Title = "ProGamerExploiter", Content = "OWNER and Trusted"})
 
 --Section1
 
